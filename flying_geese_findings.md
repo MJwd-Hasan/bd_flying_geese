@@ -55,6 +55,12 @@ The supplied `WDI_data.csv` has **10,800 rows**: 9 economies × 24 indicators ×
 - Correlations and fixed-effects associations are not causal effects.
 - High-tech export coverage is sparse; multiple tests require adjusted p-values.
 
+## Reading the supplementary export/import notebook
+
+The existing `export_import.ipynb` can be used as descriptive context for the direction and scale of trade flows, but it was not extended with new calculations for this update. Its presence should not be described as new or independently validated evidence. Aggregate exports and imports help describe external integration and trade-balance pressure; they cannot, on their own, identify product-level comparative-advantage shifts or prove that Bangladesh inherited production from an earlier industrialiser.
+
+For the Flying Geese mechanism, a stronger test would use consistent HS-level bilateral trade data to calculate revealed comparative advantage (RCA), product entry/exit, export diversification and export-basket overlap across Bangladesh and the comparison economies. If interpreting time-series plots or ACF/PACF diagnostics in the panel notebook, each country's annual series must be analysed separately: concatenating countries would create artificial transitions between unrelated economies. ACF/PACF patterns are diagnostic clues about serial dependence, not proof of causality or a standalone basis for forecasting.
+
 ## Overall answer
 **Bangladesh is partially consistent with industrial deepening and capital accumulation, but the current aggregate WDI evidence is insufficient to conclude that Bangladesh is following the Flying Geese sequence.**
 
