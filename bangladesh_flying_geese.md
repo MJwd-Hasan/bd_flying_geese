@@ -98,6 +98,20 @@ Female employment should be taken into consideration, since employing half of th
 
 The scatterplot shows that the majority of Vietnam's population is female, and that Vietnam has managed to bring a large share of women into employment, supporting both manufacturing growth and GDP growth. This is another area where Bangladesh can improve.
 
+
+### What the updated WDI panel tells us
+
+The broader audit of the supplied WDI panel adds an important qualification to the earlier narrative. Bangladesh has experienced substantial **industrial deepening and domestic capital accumulation**, but these trends alone do not demonstrate that it has completed—or is currently following—the full Flying Geese sequence.
+
+- **Manufacturing deepened:** manufacturing value added rose from **9.28% of GDP in 1976 to 22.44% in 2025** (+13.16 percentage points; Spearman trend correlation \u03c1 = 0.871, n = 50, p < 0.001). Industry value added rose from **14.45% to 34.03% of GDP** over the same period (\u03c1 = 0.966, n = 50, p < 0.001).
+- **Trade integration improved, but remains comparatively shallow:** exports of goods and services increased from **4.75% to 11.12% of GDP**, while trade rose from **22.38% to 27.95% of GDP**. Vietnam's 2025 exports/GDP and trade/GDP ratios were much higher, at approximately **98.24%** and **190.34%**, respectively. These ratios measure gross cross-border flows, not domestic value added.
+- **Capital formation rose strongly:** gross fixed capital formation increased from **14.44% of GDP in 1980 to 28.54% in 2025** (\u03c1 = 0.964, n = 46, p < 0.001). By contrast, FDI net inflows were only **0.39% of GDP in 2025**, compared with **4.27% in Vietnam** and **4.58% in Malaysia**. These descriptive comparisons do not prove that low FDI caused weak upgrading.
+- **High-tech export evidence is weak for Bangladesh:** the supplied series has only **10 observations (2008–2018)**, ranging from **0.44% to 0.54% of manufactured exports**. This short series cannot support a confident claim about Bangladesh's long-run technological trajectory.
+
+Taken together, the evidence supports a cautious conclusion: Bangladesh has industrialised and accumulated capital, yet the aggregate indicators do **not** establish a clear transition into higher-complexity export production. The Flying Geese hypothesis concerns shifts in product-level comparative advantage and the relocation of production between economies; GDP shares alone cannot verify that mechanism. In addition, the supplied data show Bangladesh's exports/GDP rising over the long run, so claims that exports simply “collapsed” or that manufacturing became definitively inward-looking should be treated as hypotheses requiring further testing, not as settled facts.
+
+**Next empirical step:** analyse HS-level trade data from [UN Comtrade](https://comtradeplus.un.org/) or [CEPII BACI](https://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=37). Calculate revealed comparative advantage (RCA), product entry and exit, export diversification, and overlap between Bangladesh's export basket and those of earlier industrialisers. This would test the product-level “baton pass” more directly. The WDI high-tech-export indicator should be reported with its actual coverage, not extrapolated beyond the observed years.
+
 ## Why Bangladesh Is Failing
 
 Akamatsu showed that follower countries focused on globally trending manufactured products, mostly assembling imported raw materials and then exporting them in bulk for profit. In recent decades, high-tech industries have been booming. Technology keeps advancing and the demand for digital products has risen rapidly. Both leading and follower countries adapted their industries to the global market alongside their local market. This not only employed their populations but also raised manufacturing's contribution to GDP and helped them keep a stable NTC above the zero line. So let's look at Bangladesh's movement in the Kojima FDI-upgrading quadrant against the high-tech share of manufactured exports:
