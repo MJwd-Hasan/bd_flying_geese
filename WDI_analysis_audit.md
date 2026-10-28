@@ -33,7 +33,9 @@ This audit is a research-quality checklist for `WDI.ipynb` and `wdi_data.csv`. I
 - “Female population share” is not female labour-force participation, female employment, or women’s contribution to manufacturing. Use labour-market indicators for claims about women’s employment.
 - High-technology exports (% of manufactured exports) is a composition measure, not the absolute scale or domestic value added of high-tech production. Pair it with other evidence and state its limitations.
 - Manufacturing value added (% of GDP) can decline while manufacturing output grows if other sectors grow faster. Analyse levels, growth rates, and shares separately where data permit.
-- FDI inflows (% of GDP) can be volatile and affected by denominator movements. Avoid interpreting correlation as a direct investment effect.
+- FDI inflows (% of GDP) can be volatile and affected by denominator movements. Avoid interpreting correlation as a direct investment effect. Hong Kong SAR's inflows reach 58.5% of GDP and are an extreme outlier; check results with and without it.
+- Medium and high-tech exports (% of manufactured exports) is a composition measure like the high-technology indicator, but a broader category. It has 35 annual observations (1990–2024) per economy, so it supports longer samples than the high-technology series (8–18 observations).
+- Hong Kong SAR's manufacturing, industry, services and agriculture value-added series start in 2000 (25 observations). Panel tests that combine p-values across economies (for example Fisher-ADF) can be dominated by one short, steeply trending series; report them with and without Hong Kong.
 
 ### 5. Make comparisons defensible
 - Use consistent definitions and common observation windows for Bangladesh, Viet Nam, and the selected Flying Geese economies.
@@ -70,6 +72,10 @@ Before analysis, verify:
 - [ ] All plots use consistent units and clearly labelled periods.
 - [ ] Tests report hypotheses, sample size, lag/specification, statistic, p-value, and caveat.
 - [ ] Notebook executes from a clean kernel with the repository's relative file paths.
+
+## Update note: extended extract
+
+`wdi_data.csv` now contains Hong Kong SAR and the indicator Medium and high-tech exports, and starts in 1960. `export_import.ipynb` and `flying_geese_panel_eda.ipynb` were re-run with `ANALYSIS_START = 1976` so that results for the nine original economies remain identical to earlier versions. `WDI.ipynb` was not updated or re-run for this extract.
 
 ## Research claims that need re-validation
 
