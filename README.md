@@ -9,8 +9,8 @@ A comparative analysis of Bangladesh and Vietnam, alongside eight other Asian ec
 
 | Path | Purpose |
 |---|---|
-| `WDI.ipynb` | Earlier WDI-based analysis. Not updated or re-run for the ten-economy extract; it reads `WDI_data.csv` (capitalised), which does not match the file name on case-sensitive systems |
-| `wdi_data.csv` | WDI extract for ten economies and 25 indicators, 1960–2025; long-format values may use `..` for missing observations. The notebooks analyse 1976–2025 (`ANALYSIS_START = 1976`) |
+| `WDI.ipynb` | WDI analysis notebook with saved outputs for ten economies and 25 indicators over 1960–2025; it reads `WDI_data.csv` (capitalised), while the tracked extract is `wdi_data.csv` |
+| `wdi_data.csv` | WDI extract for ten economies and 25 indicators, 1960–2025; long-format values may use `..` for missing observations. `export_import.ipynb` and `flying_geese_panel_eda.ipynb` analyse 1976–2025 (`ANALYSIS_START = 1976`); `WDI.ipynb` uses its full available range |
 | `UNCTAD.ipynb`, `UNCTAD_data.csv`, `UNCTAD_series.csv` | Supplementary UNCTAD analysis and data |
 | `export_import.ipynb` | Trade-focused analysis: Chow and Zivot-Andrews breaks, Spearman lead/lag, Kojima FDI-upgrading quadrants (high-tech and medium/high-tech exports), panel unit-root, cross-section dependence and causality tests |
 | `flying_geese_panel_eda.ipynb` | Panel descriptive analysis: coverage, trends, break scans, fixed effects, stationarity and lead/lag |
@@ -19,6 +19,7 @@ A comparative analysis of Bangladesh and Vietnam, alongside eight other Asian ec
 | `docs/` | Research and robustness notes |
 | `Papers/` | Collected references |
 | `WDI_analysis_audit.md` | Data validation, statistical-method, interpretation, and reproducibility audit |
+| `WDI_analysis_results.md` | Workflow, EDA, methods, notebook-reported statistics, Bangladesh comparison, and interpretation for `WDI.ipynb` |
 | `requirements.txt` | Python dependencies |
 
 Economies: Bangladesh, China, Hong Kong SAR, Indonesia, Japan, Korea (Rep.), Malaysia, Philippines, Singapore, and Viet Nam.
@@ -41,10 +42,10 @@ pip install -r requirements.txt
 Then execute the notebook you want to reproduce, for example:
 
 ```bash
-jupyter nbconvert --to notebook --execute --inplace WDI.ipynb
+jupyter nbconvert --to notebook --execute WDI.ipynb --output WDI.executed.ipynb
 ```
 
-Execution may take time, and all results should be checked against the current input data and notebook outputs before being cited.
+This writes a separate executed notebook instead of overwriting `WDI.ipynb`. Note that `WDI.ipynb` currently requests `WDI_data.csv`, whereas the tracked file is `wdi_data.csv`; case-sensitive filesystems will require the notebook path to be corrected. See [WDI analysis results](WDI_analysis_results.md) for the notebook's current workflow and reported findings, and [WDI analysis audit](WDI_analysis_audit.md) for limitations and validation checks. Execution may take time, and saved results should be checked against the current input data before being cited.
 
 ## Research question and workflow
 

@@ -73,9 +73,11 @@ Before analysis, verify:
 - [ ] Tests report hypotheses, sample size, lag/specification, statistic, p-value, and caveat.
 - [ ] Notebook executes from a clean kernel with the repository's relative file paths.
 
-## Update note: extended extract
+## Update note: extended extract and current WDI notebook
 
-`wdi_data.csv` now contains Hong Kong SAR and the indicator Medium and high-tech exports, and starts in 1960. `export_import.ipynb` and `flying_geese_panel_eda.ipynb` were re-run with `ANALYSIS_START = 1976` so that results for the nine original economies remain identical to earlier versions. `WDI.ipynb` was not updated or re-run for this extract.
+`wdi_data.csv` contains Hong Kong SAR and the indicator Medium and high-tech exports, and starts in 1960. `export_import.ipynb` and `flying_geese_panel_eda.ipynb` use `ANALYSIS_START = 1976`. The current `WDI.ipynb` also has saved outputs for ten economies and 25 indicator codes over 1960–2025; it does not apply the same 1976 start filter. Its input expression resolves to `WDI_data.csv`, while the tracked extract is `wdi_data.csv`, so a case-sensitive filesystem will not find the file without a path correction.
+
+The notebook's current outputs and an evidence-based summary are documented in [WDI analysis results](WDI_analysis_results.md). Those outputs should not be treated as a clean rerun or independent validation: the Chow scan omits F-statistics and p-values, its saved run emits a rank-deficiency warning, and the cross-section, panel unit-root, and causality implementations need the checks listed above. The results note distinguishes notebook-reported statistics from validated conclusions.
 
 ## Research claims that need re-validation
 
