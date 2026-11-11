@@ -1,0 +1,6 @@
+indicator,N,T,CD,p_value,decision
+NV.IND.MANF.ZS,10,20,3.497812502278954,0.0004690907908939778,Reject H0: evidence of cross-sectional dependence
+NV.IND.MANF.KD,10,1,,,Not tested: insufficient balanced panel
+NE.GDI.FTOT.ZS,10,25,-1.2232720983262273,0.2212269419395524,Fail to reject H0
+BX.KLT.DINV.WD.GD.ZS,10,41,6.449572750270757,1.121659080163301e-10,Reject H0: evidence of cross-sectional dependence
+TX.MNF.TECH.ZS.UN,10,35,3.993172475269293,6.519511028611863e-05,Reject H0: evidence of cross-sectional dependence

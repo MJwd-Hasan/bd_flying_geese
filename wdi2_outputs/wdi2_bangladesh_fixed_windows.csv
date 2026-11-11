@@ -1,0 +1,11 @@
+indicator_code,indicator,1960-1969_mean,2021-2025_mean,n_early,n_recent,comparison_status
+NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",1963525068.593876,65130108008.81582,10,5,Comparable windows
+NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",5.613348774671984,21.935374131699724,10,5,Comparable windows
+NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",55.457172978502015,11.28859463152998,10,5,Comparable windows
+NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",35.787916956211106,51.40059497967643,10,5,Comparable windows
+NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),,30.651760961924378,0,5,Insufficient window coverage
+BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",,0.3545486172723964,0,5,Insufficient window coverage
+TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),,2.70756373442711,0,4,Insufficient window coverage
+TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),,,0,0,Insufficient window coverage
+NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),454.37517121601314,1863.5637268672738,10,5,Comparable windows
+NY.GDP.MKTP.KD,GDP (constant 2015 US$),26964562389.31639,319980567116.6542,10,5,Comparable windows

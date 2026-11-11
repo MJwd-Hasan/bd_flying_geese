@@ -1,0 +1,26 @@
+Series Code,Series Name,non_missing
+BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",534
+NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),601
+NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),489
+NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),479
+NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),552
+NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),601
+NE.TRD.GNFS.ZS,Trade (% of GDP),601
+NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",535
+NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",445
+NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",435
+NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",432
+NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",535
+NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",508
+NY.GDP.MKTP.KD,GDP (constant 2015 US$),635
+NY.GDP.MKTP.KD.ZG,GDP growth (annual %),625
+NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),635
+NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),625
+SP.POP.GROW,Population growth (annual %),650
+SP.POP.TOTL,"Population, total",660
+SP.POP.TOTL.FE.IN,"Population, female",660
+SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",660
+SP.POP.TOTL.MA.IN,"Population, male",660
+SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",660
+TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),350
+TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),155

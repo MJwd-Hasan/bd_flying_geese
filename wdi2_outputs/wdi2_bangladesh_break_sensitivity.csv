@@ -1,0 +1,4 @@
+break_year,n_pre,n_post,F,df1,df2,p_value,status,p_bonferroni,decision_5pct_adjusted
+1997,37,29,18.947227871618104,2,62.0,3.78755927108934e-07,Tested,7.57511854217868e-07,Reject H0
+2008,48,18,4.086424982231784,2,62.0,0.02152285135398228,Tested,0.04304570270796456,Reject H0
+2019,59,7,,2,,,Skipped: minimum regime size not met,,Not tested

@@ -1,0 +1,251 @@
+Country Code,Country Name,Series Code,Series Name,n_available,first_year,last_year,coverage_pct_of_1960_2025
+BGD,Bangladesh,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",54,1972.0,2025.0,81.81818181818183
+BGD,Bangladesh,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+BGD,Bangladesh,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),46,1980.0,2025.0,69.6969696969697
+BGD,Bangladesh,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),45,1981.0,2025.0,68.18181818181817
+BGD,Bangladesh,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),46,1980.0,2025.0,69.6969696969697
+BGD,Bangladesh,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+BGD,Bangladesh,NE.TRD.GNFS.ZS,Trade (% of GDP),66,1960.0,2025.0,100.0
+BGD,Bangladesh,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",65,1961.0,2025.0,98.48484848484848
+BGD,Bangladesh,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+BGD,Bangladesh,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+BGD,Bangladesh,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+BGD,Bangladesh,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+BGD,Bangladesh,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+BGD,Bangladesh,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+BGD,Bangladesh,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+BGD,Bangladesh,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+BGD,Bangladesh,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+BGD,Bangladesh,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+BGD,Bangladesh,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),10,2008.0,2018.0,15.151515151515152
+CHN,China,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",47,1979.0,2025.0,71.21212121212122
+CHN,China,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+CHN,China,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),1,2015.0,2015.0,1.5151515151515151
+CHN,China,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),0,,,0.0
+CHN,China,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),65,1960.0,2024.0,98.48484848484848
+CHN,China,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+CHN,China,NE.TRD.GNFS.ZS,Trade (% of GDP),66,1960.0,2025.0,100.0
+CHN,China,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",66,1960.0,2025.0,100.0
+CHN,China,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",1,2015.0,2015.0,1.5151515151515151
+CHN,China,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",0,,,0.0
+CHN,China,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",22,2004.0,2025.0,33.33333333333333
+CHN,China,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",66,1960.0,2025.0,100.0
+CHN,China,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",66,1960.0,2025.0,100.0
+CHN,China,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+CHN,China,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+CHN,China,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+CHN,China,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+CHN,China,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+CHN,China,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+CHN,China,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+CHN,China,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+CHN,China,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+CHN,China,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+CHN,China,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),18,2007.0,2024.0,27.27272727272727
+HKG,"Hong Kong SAR, China",BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+HKG,"Hong Kong SAR, China",NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),64,1962.0,2025.0,96.96969696969697
+HKG,"Hong Kong SAR, China",NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NE.TRD.GNFS.ZS,Trade (% of GDP),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",25,2000.0,2024.0,37.878787878787875
+HKG,"Hong Kong SAR, China",NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",26,2000.0,2025.0,39.39393939393939
+HKG,"Hong Kong SAR, China",NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",25,2001.0,2025.0,37.878787878787875
+HKG,"Hong Kong SAR, China",NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",25,2000.0,2024.0,37.878787878787875
+HKG,"Hong Kong SAR, China",NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",25,2000.0,2024.0,37.878787878787875
+HKG,"Hong Kong SAR, China",NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",25,2000.0,2024.0,37.878787878787875
+HKG,"Hong Kong SAR, China",NY.GDP.MKTP.KD,GDP (constant 2015 US$),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),64,1962.0,2025.0,96.96969696969697
+HKG,"Hong Kong SAR, China",NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),64,1962.0,2025.0,96.96969696969697
+HKG,"Hong Kong SAR, China",SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+HKG,"Hong Kong SAR, China",SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+HKG,"Hong Kong SAR, China",SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+HKG,"Hong Kong SAR, China",SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+HKG,"Hong Kong SAR, China",SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+HKG,"Hong Kong SAR, China",SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+HKG,"Hong Kong SAR, China",TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+HKG,"Hong Kong SAR, China",TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),18,2007.0,2024.0,27.27272727272727
+IDN,Indonesia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+IDN,Indonesia,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+IDN,Indonesia,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),66,1960.0,2025.0,100.0
+IDN,Indonesia,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),65,1961.0,2025.0,98.48484848484848
+IDN,Indonesia,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),66,1960.0,2025.0,100.0
+IDN,Indonesia,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+IDN,Indonesia,NE.TRD.GNFS.ZS,Trade (% of GDP),66,1960.0,2025.0,100.0
+IDN,Indonesia,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",43,1983.0,2025.0,65.15151515151516
+IDN,Indonesia,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",66,1960.0,2025.0,100.0
+IDN,Indonesia,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",65,1961.0,2025.0,98.48484848484848
+IDN,Indonesia,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",43,1983.0,2025.0,65.15151515151516
+IDN,Indonesia,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",43,1983.0,2025.0,65.15151515151516
+IDN,Indonesia,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",43,1983.0,2025.0,65.15151515151516
+IDN,Indonesia,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+IDN,Indonesia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+IDN,Indonesia,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+IDN,Indonesia,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+IDN,Indonesia,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+IDN,Indonesia,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+IDN,Indonesia,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+IDN,Indonesia,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+IDN,Indonesia,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+IDN,Indonesia,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+IDN,Indonesia,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+IDN,Indonesia,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),15,2010.0,2024.0,22.727272727272727
+JPN,Japan,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+JPN,Japan,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),55,1970.0,2024.0,83.33333333333334
+JPN,Japan,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),55,1970.0,2024.0,83.33333333333334
+JPN,Japan,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),54,1971.0,2024.0,81.81818181818183
+JPN,Japan,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),55,1970.0,2024.0,83.33333333333334
+JPN,Japan,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),55,1970.0,2024.0,83.33333333333334
+JPN,Japan,NE.TRD.GNFS.ZS,Trade (% of GDP),55,1970.0,2024.0,83.33333333333334
+JPN,Japan,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",31,1994.0,2024.0,46.96969696969697
+JPN,Japan,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",31,1994.0,2024.0,46.96969696969697
+JPN,Japan,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",30,1995.0,2024.0,45.45454545454545
+JPN,Japan,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",31,1994.0,2024.0,46.96969696969697
+JPN,Japan,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",31,1994.0,2024.0,46.96969696969697
+JPN,Japan,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",31,1994.0,2024.0,46.96969696969697
+JPN,Japan,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+JPN,Japan,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+JPN,Japan,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+JPN,Japan,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+JPN,Japan,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+JPN,Japan,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+JPN,Japan,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+JPN,Japan,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+JPN,Japan,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+JPN,Japan,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+JPN,Japan,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),18,2007.0,2024.0,27.27272727272727
+KOR,"Korea, Rep.",BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+KOR,"Korea, Rep.",NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),65,1961.0,2025.0,98.48484848484848
+KOR,"Korea, Rep.",NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NE.TRD.GNFS.ZS,Trade (% of GDP),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",65,1961.0,2025.0,98.48484848484848
+KOR,"Korea, Rep.",NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+KOR,"Korea, Rep.",NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+KOR,"Korea, Rep.",SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+KOR,"Korea, Rep.",SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+KOR,"Korea, Rep.",TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+KOR,"Korea, Rep.",TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),18,2007.0,2024.0,27.27272727272727
+MYS,Malaysia,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+MYS,Malaysia,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+MYS,Malaysia,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),66,1960.0,2025.0,100.0
+MYS,Malaysia,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),65,1961.0,2025.0,98.48484848484848
+MYS,Malaysia,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),66,1960.0,2025.0,100.0
+MYS,Malaysia,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+MYS,Malaysia,NE.TRD.GNFS.ZS,Trade (% of GDP),66,1960.0,2025.0,100.0
+MYS,Malaysia,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",66,1960.0,2025.0,100.0
+MYS,Malaysia,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",56,1970.0,2025.0,84.84848484848484
+MYS,Malaysia,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",55,1971.0,2025.0,83.33333333333334
+MYS,Malaysia,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",66,1960.0,2025.0,100.0
+MYS,Malaysia,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",66,1960.0,2025.0,100.0
+MYS,Malaysia,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",39,1987.0,2025.0,59.09090909090909
+MYS,Malaysia,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+MYS,Malaysia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+MYS,Malaysia,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+MYS,Malaysia,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+MYS,Malaysia,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+MYS,Malaysia,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+MYS,Malaysia,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+MYS,Malaysia,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+MYS,Malaysia,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+MYS,Malaysia,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+MYS,Malaysia,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+MYS,Malaysia,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),16,2009.0,2024.0,24.242424242424242
+PHL,Philippines,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+PHL,Philippines,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),45,1981.0,2025.0,68.18181818181817
+PHL,Philippines,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),26,2000.0,2025.0,39.39393939393939
+PHL,Philippines,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),25,2001.0,2025.0,37.878787878787875
+PHL,Philippines,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),26,2000.0,2025.0,39.39393939393939
+PHL,Philippines,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),45,1981.0,2025.0,68.18181818181817
+PHL,Philippines,NE.TRD.GNFS.ZS,Trade (% of GDP),45,1981.0,2025.0,68.18181818181817
+PHL,Philippines,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",66,1960.0,2025.0,100.0
+PHL,Philippines,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",26,2000.0,2025.0,39.39393939393939
+PHL,Philippines,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",25,2001.0,2025.0,37.878787878787875
+PHL,Philippines,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",26,2000.0,2025.0,39.39393939393939
+PHL,Philippines,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",66,1960.0,2025.0,100.0
+PHL,Philippines,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",66,1960.0,2025.0,100.0
+PHL,Philippines,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+PHL,Philippines,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+PHL,Philippines,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+PHL,Philippines,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+PHL,Philippines,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+PHL,Philippines,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+PHL,Philippines,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+PHL,Philippines,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+PHL,Philippines,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+PHL,Philippines,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+PHL,Philippines,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+PHL,Philippines,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),8,2017.0,2024.0,12.121212121212121
+SGP,Singapore,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",56,1970.0,2025.0,84.84848484848484
+SGP,Singapore,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+SGP,Singapore,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),66,1960.0,2025.0,100.0
+SGP,Singapore,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),65,1961.0,2025.0,98.48484848484848
+SGP,Singapore,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),66,1960.0,2025.0,100.0
+SGP,Singapore,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),66,1960.0,2025.0,100.0
+SGP,Singapore,NE.TRD.GNFS.ZS,Trade (% of GDP),66,1960.0,2025.0,100.0
+SGP,Singapore,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",66,1960.0,2025.0,100.0
+SGP,Singapore,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",66,1960.0,2025.0,100.0
+SGP,Singapore,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",65,1961.0,2025.0,98.48484848484848
+SGP,Singapore,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",66,1960.0,2025.0,100.0
+SGP,Singapore,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",66,1960.0,2025.0,100.0
+SGP,Singapore,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",66,1960.0,2025.0,100.0
+SGP,Singapore,NY.GDP.MKTP.KD,GDP (constant 2015 US$),66,1960.0,2025.0,100.0
+SGP,Singapore,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),65,1961.0,2025.0,98.48484848484848
+SGP,Singapore,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),66,1960.0,2025.0,100.0
+SGP,Singapore,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),65,1961.0,2025.0,98.48484848484848
+SGP,Singapore,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+SGP,Singapore,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+SGP,Singapore,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+SGP,Singapore,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+SGP,Singapore,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+SGP,Singapore,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+SGP,Singapore,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+SGP,Singapore,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),18,2007.0,2024.0,27.27272727272727
+VNM,Viet Nam,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",41,1985.0,2025.0,62.121212121212125
+VNM,Viet Nam,NE.EXP.GNFS.ZS,Exports of goods and services (% of GDP),40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NE.GDI.FTOT.KD,Gross fixed capital formation (constant 2015 US$),32,1994.0,2025.0,48.484848484848484
+VNM,Viet Nam,NE.GDI.FTOT.KD.ZG,Gross fixed capital formation (annual % growth),31,1995.0,2025.0,46.96969696969697
+VNM,Viet Nam,NE.GDI.FTOT.ZS,Gross fixed capital formation (% of GDP),31,1995.0,2025.0,46.96969696969697
+VNM,Viet Nam,NE.IMP.GNFS.ZS,Imports of goods and services (% of GDP),40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NE.TRD.GNFS.ZS,Trade (% of GDP),40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NV.IND.MANF.KD,"Manufacturing, value added (constant 2015 US$)",41,1985.0,2025.0,62.121212121212125
+VNM,Viet Nam,NV.IND.MANF.KD.ZG,"Manufacturing, value added (annual % growth)",40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NV.IND.MANF.ZS,"Manufacturing, value added (% of GDP)",21,2005.0,2025.0,31.818181818181817
+VNM,Viet Nam,NV.IND.TOTL.ZS,"Industry (including construction), value added (% of GDP)",40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NV.SRV.TOTL.ZS,"Services, value added (% of GDP)",40,1986.0,2025.0,60.60606060606061
+VNM,Viet Nam,NY.GDP.MKTP.KD,GDP (constant 2015 US$),42,1984.0,2025.0,63.63636363636363
+VNM,Viet Nam,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),41,1985.0,2025.0,62.121212121212125
+VNM,Viet Nam,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),42,1984.0,2025.0,63.63636363636363
+VNM,Viet Nam,NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %),41,1985.0,2025.0,62.121212121212125
+VNM,Viet Nam,SP.POP.GROW,Population growth (annual %),65,1961.0,2025.0,98.48484848484848
+VNM,Viet Nam,SP.POP.TOTL,"Population, total",66,1960.0,2025.0,100.0
+VNM,Viet Nam,SP.POP.TOTL.FE.IN,"Population, female",66,1960.0,2025.0,100.0
+VNM,Viet Nam,SP.POP.TOTL.FE.ZS,"Population, female (% of total population)",66,1960.0,2025.0,100.0
+VNM,Viet Nam,SP.POP.TOTL.MA.IN,"Population, male",66,1960.0,2025.0,100.0
+VNM,Viet Nam,SP.POP.TOTL.MA.ZS,"Population, male (% of total population)",66,1960.0,2025.0,100.0
+VNM,Viet Nam,TX.MNF.TECH.ZS.UN,Medium and high-tech exports (% manufactured exports),35,1990.0,2024.0,53.03030303030303
+VNM,Viet Nam,TX.VAL.TECH.MF.ZS,High-technology exports (% of manufactured exports),16,2008.0,2023.0,24.242424242424242
