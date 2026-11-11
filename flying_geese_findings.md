@@ -1,9 +1,9 @@
-# Bangladesh and the Flying Geese hypothesis — findings from the supplied WDI panel
+# Bangladesh and the Flying Geese hypothesis — findings from WDI analyses
 
 ## Data and scope
-The supplied `wdi_data.csv` has **16,500 rows**: 10 economies × 25 indicators × 66 years (1960–2025), in long format. The notebooks analyse the **1976–2025 window** (`ANALYSIS_START = 1976`; 12,500 rows = 10 × 25 × 50), so results for the nine original economies remain comparable with earlier versions of this report. It was analysed locally; no World Bank API calls were used.
+The supplied `wdi_data.csv` has **16,500 rows**: 10 economies × 25 indicators × 66 years (1960–2025), in long format. The newer `export_import.ipynb` and `flying_geese_panel_eda.ipynb` analyses use the **1976–2025 window** (`ANALYSIS_START = 1976`; 12,500 rows = 10 × 25 × 50). `WDI.ipynb` is a separate, older analysis with saved outputs over the available 1960–2025 span; its sample and methods are not interchangeable with those of the newer notebooks. The data were analysed locally; no World Bank API calls were used.
 
-The latest update added **Hong Kong SAR** and the indicator **Medium and high-tech exports (% of manufactured exports)**. The high-technology export series has substantially shorter coverage than most other indicators (8–18 observations per economy); the medium and high-tech series has 35 (1990–2024) for every economy. Hong Kong's manufacturing, industry, services and agriculture value-added series start in 2000 (25 observations). Both notebooks were re-run end to end for the update; for the nine original economies every country-specific result reproduces exactly, and only multiple-testing-adjusted and panel-level statistics change because the number of tests and the panel grew.
+The latest update added **Hong Kong SAR** and the indicator **Medium and high-tech exports (% of manufactured exports)**. The high-technology export series has substantially shorter coverage than most other indicators (8–18 observations per economy); the medium and high-tech series has 35 (1990–2024) for every economy. Hong Kong's manufacturing, industry, services and agriculture value-added series start in 2000 (25 observations). The newer export/import and panel-EDA notebooks were re-run end to end for that update; for the nine original economies every country-specific result reproduces exactly, and only multiple-testing-adjusted and panel-level statistics change because the number of tests and the panel grew. The saved results in `WDI.ipynb` are summarized separately below and should not be read as a rerun of those newer specifications.
 
 ## Main findings
 
@@ -15,6 +15,23 @@ The latest update added **Hong Kong SAR** and the indicator **Medium and high-te
 - China's manufacturing share in this extract is available only for 2004–2025 (22 observations), declining from 31.51% to 24.73%. Do not infer a 1976–2025 decline from this incomplete series.
 
 **Interpretation:** evidence supports industrial deepening in Bangladesh, consistent with one broad feature of industrialisation, but this does not establish the Flying Geese mechanism.
+
+### WDI.ipynb cross-check (full available period)
+
+The saved `WDI.ipynb` outputs provide a separate, broader-period comparison. They report 10 economies, 25 indicators and 66 calendar years (1960–2025), with incomplete country-indicator coverage. The per-capita-growth summaries are over each country's available observations, not a balanced common window:
+
+| Economy | Median GDP per capita growth (%) | Mean (%) |
+|---|---:|---:|
+| China | 7.43 | 6.63 |
+| Korea, Rep. | 5.91 | 5.74 |
+| Viet Nam | 5.24 | 4.96 |
+| Bangladesh | 3.01 | 2.46 |
+
+This ranking is consistent with the newer panel report's broad comparison, but the figures should not be merged because the sample windows and methods differ. In the WDI notebook's level-based Spearman comparisons, Bangladesh's manufacturing value-added share is positively associated with Korea (ρ = 0.808 at lag 0) and Viet Nam (ρ = 0.871), and negatively associated with China (ρ = −0.938). The displayed high-tech-export correlations with China, Korea and Viet Nam are not significant at 5%. These correlations do not establish that economies share a trend after controlling for time, nor do they identify production transfers.
+
+The WDI notebook also marks 2019 and 2020 in its Bangladesh Chow candidate-year scan, but does not retain the scan's F-statistics or p-values and emits a rank-deficiency warning. Its Bangladesh Zivot–Andrews tests do not reject a unit root for manufacturing value added, exports, or gross fixed capital formation under any of the three deterministic specifications. The notebook's panel Dumitrescu–Hurlin test reports FDI → manufacturing value added at p = 0.00058, while its Bangladesh-specific Toda–Yamamoto result is not significant (p = 0.823). The Bangladesh high-tech exports → capital formation result is nominally significant (Wald = 23.938, p < 0.001), but is fragile given the short high-tech series and unreported usable sample size. None of these predictive tests establishes structural causality.
+
+These are notebook-reported results, not independently validated estimates. The full workflow, formulas, statistics, and implementation caveats are in [`WDI_analysis_results.md`](./WDI_analysis_results.md). In particular, `WDI.ipynb` reads `WDI_data.csv` while the tracked file is `wdi_data.csv`; case-sensitive systems will require the path to be corrected before execution.
 
 ### 2. Trade integration
 - Bangladesh exports of goods and services rose from **4.75% of GDP (1976) to 11.12% (2025)** (+6.37 points; rho=0.761, n=50, p<0.001).
@@ -63,7 +80,7 @@ The latest update added **Hong Kong SAR** and the indicator **Medium and high-te
 - Two-way fixed effects (EDA notebook; 10 clusters, n = 359): the coefficient on lagged FDI in the manufacturing-share equation is −0.153 (p = 0.021, BH 0.042), versus −0.229 (p = 0.002, n = 334) with nine economies; the coefficient on lagged exports is 0.084 (BH 0.009). These are associations with very few clusters.
 - Multiple-testing families grew (EDA trend and lead/lag tests: 79 to 98 trends; 69 to 117 lead/lag tests), so BH-adjusted p-values for existing rows changed even though raw statistics did not.
 
-## Statistical work included in the notebook
+## Statistical work in the newer panel and export/import notebooks
 1. Data integrity, missingness and coverage audit.
 2. Time-series graphs for industrial structure, trade and investment.
 3. Common-window endpoint comparisons with effective sample sizes.
@@ -76,6 +93,11 @@ The latest update added **Hong Kong SAR** and the indicator **Medium and high-te
 
 ## Limitations
 - Only ten economies: country-clustered standard errors can be unreliable.
+- `WDI.ipynb` uses the full available 1960–2025 span and different specifications from the newer analyses; do not combine its estimates with the 1976–2025 results as if they shared a sample.
+- The WDI notebook's Chow scan tests multiple candidate years without adjustment, does not report test statistics or p-values, and has a saved rank-deficiency warning.
+- The WDI notebook's panel CD and IPS/CIPS procedures are hand-coded or applied to raw series and need validation; its ZA tests drop missing years without checking that the remaining annual observations are consecutive.
+- The WDI notebook's causality code constructs lags after dropping missing rows, so gaps in calendar years can make a row lag differ from a one-year lag. Bangladesh's high-tech series is short, and the causality table omits usable sample sizes.
+- The WDI notebook's CSV path uses `WDI_data.csv`, which does not match the tracked filename on case-sensitive filesystems.
 - Hong Kong's value-added series start in 2000, so every test that uses them has a short sample for Hong Kong, and its FDI inflows are an extreme outlier.
 - A single economy can change a panel classification (see section 7); report panel results with and without Hong Kong.
 - Break scans are exploratory, not a pre-specified Chow test or validated multiple-break model.
@@ -93,7 +115,7 @@ For the Flying Geese mechanism, a stronger test would use consistent HS-level bi
 ## Overall answer
 **Bangladesh is partially consistent with industrial deepening and capital accumulation, but the current aggregate WDI evidence is insufficient to conclude that Bangladesh is following the Flying Geese sequence.**
 
-The update (Hong Kong SAR and medium and high-tech exports) does not change this answer. The new 35-observation series shows Bangladesh's medium and high-tech export share at 2.41% in 1990 and 2.71% in 2024, against 59.50% for Vietnam and 63.35% for China in 2024, which strengthens the point that export upgrading is not visible. The strongest evidence is the long-run rise in Bangladesh's manufacturing and industry shares and GFCF/GDP. Exports/GDP and trade/GDP also rose, but remain below Vietnam's exceptionally high trade integration. The high-tech export series is too sparse to support a strong upgrading claim.
+The newer panel findings and the separate `WDI.ipynb` results do not change this cautious answer. The WDI notebook's available-sample median per-capita growth for Bangladesh (3.01%) is below Viet Nam (5.24%) and China (7.43%), but it does not use a balanced comparison window. The newer 35-observation medium and high-tech series shows Bangladesh's export share at 2.41% in 1990 and 2.71% in 2024, against 59.50% for Viet Nam and 63.35% for China in 2024, which strengthens the point that export upgrading is not visible in that measure. The strongest evidence is the long-run rise in Bangladesh's manufacturing and industry shares and GFCF/GDP. Exports/GDP and trade/GDP also rose, but remain below Viet Nam's exceptionally high trade integration. The high-tech export series is too sparse to support a strong upgrading claim.
 
 The central Flying Geese mechanism—successive shifts in product-level comparative advantage and relocation of production/export categories—cannot be tested using aggregate WDI ratios alone. The next decisive step is HS product-level trade analysis using [UN Comtrade](https://comtradeplus.un.org/) or [CEPII BACI](https://www.cepii.fr/CEPII/en/bdd_modele/presentation.asp?id=37): calculate revealed comparative advantage (RCA), product entry/exit, export diversification and overlap between Bangladesh's export basket and those of earlier geese. [UNIDO INDSTAT](https://stat.unido.org/) can add manufacturing subsector output and employment.
 
