@@ -10,6 +10,9 @@ A comparative analysis of Bangladesh and Vietnam, alongside eight other Asian ec
 | Path | Purpose |
 |---|---|
 | `WDI.ipynb` | WDI analysis notebook with saved outputs for ten economies and 25 indicators over 1960–2025; it reads `WDI_data.csv` (capitalised), while the tracked extract is `wdi_data.csv` |
+| `pol_data.ipynb` | Reproducible DPI political-institutions EDA and merged DPI–WDI panel analysis; includes Bangladesh's annual audit, corrected military-officer episodes, variable dictionaries, panel diagnostics, and Bangladesh–Vietnam growth comparisons |
+| `political_data.md` | Research report documenting DPI coding rules, Bangladesh–Vietnam institutional comparisons, WDI growth gap, two-way fixed-effects estimates, robustness checks, and causal-inference limitations |
+| `Political Data/DPI 2023 CSV Version.csv` | Original DPI 2023 country-year source used by `pol_data.ipynb` (15 selected countries, 1975–2023) |
 | `wdi_data.csv` | WDI extract for ten economies and 25 indicators, 1960–2025; long-format values may use `..` for missing observations. `export_import.ipynb` and `flying_geese_panel_eda.ipynb` analyse 1976–2025 (`ANALYSIS_START = 1976`); `WDI.ipynb` uses its full available range |
 | `UNCTAD.ipynb`, `UNCTAD_data.csv`, `UNCTAD_series.csv` | Supplementary UNCTAD analysis and data |
 | `export_import.ipynb` | Trade-focused analysis: Chow and Zivot-Andrews breaks, Spearman lead/lag, Kojima FDI-upgrading quadrants (high-tech and medium/high-tech exports), panel unit-root, cross-section dependence and causality tests |
@@ -46,6 +49,10 @@ jupyter nbconvert --to notebook --execute WDI.ipynb --output WDI.executed.ipynb
 ```
 
 This writes a separate executed notebook instead of overwriting `WDI.ipynb`. Note that `WDI.ipynb` currently requests `WDI_data.csv`, whereas the tracked file is `wdi_data.csv`; case-sensitive filesystems will require the notebook path to be corrected. See [WDI analysis results](WDI_analysis_results.md) for the notebook's current workflow and reported findings, and [WDI analysis audit](WDI_analysis_audit.md) for limitations and validation checks. Execution may take time, and saved results should be checked against the current input data before being cited.
+
+## Political institutions and economic growth
+
+The complementary political-institutions analysis uses DPI 2023 data for 15 selected countries over 1975–2023 and merges it with the tracked WDI extract. The DPI–WDI intersection contains seven countries; Bangladesh and Vietnam are compared over 1985–2023 for GDP-per-capita growth. See `pol_data.ipynb` for the reproducible analysis and `political_data.md` for results and interpretation. The report distinguishes panel associations and predictive tests from structural causal identification; it does not claim that politics alone explains Bangladesh's growth differential.
 
 ## Research question and workflow
 
