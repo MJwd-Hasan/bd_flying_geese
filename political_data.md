@@ -302,3 +302,118 @@ To strengthen the political-institutions component of the wider study:
 ---
 
 **Research note:** This document is based exclusively on the saved outputs and calculations in `pol_data.ipynb`. It does not introduce external political events, news accounts, or independent country assessments. Where the notebook's outputs are ambiguous or potentially affected by coding choices, the uncertainty is stated rather than resolved through assumptions.
+
+
+## 11. Updated EDA and hypothesis-led panel results
+
+This section incorporates the subsequently saved outputs from the expanded EDA in `pol_data.ipynb`. It supplements the descriptive interpretation above and **supersedes any earlier preliminary panel-test figures**. The panel remains the same 15 countries and 735 country-year observations for 1975–2023. No WDI or economic variables are included.
+
+### 11.1 Panel coverage and data quality
+
+The expanded EDA confirms a balanced country-year structure: each of the 15 countries contributes 49 observations. However, variable-level coverage differs considerably:
+
+| Variable | Non-missing observations | Missing (%) |
+|---|---:|---:|
+| `auton` | 733 | 0.3 |
+| `execnat` | 732 | 0.4 |
+| `yrsoffc` | 732 | 0.4 |
+| `tenlong` | 732 | 0.4 |
+| `tensys` | 732 | 0.4 |
+| `military` | 732 | 0.4 |
+| `tenshort` | 732 | 0.4 |
+| `execrlc` | 731 | 0.5 |
+| `checks` | 722 | 1.8 |
+| `stabs` | 711 | 3.3 |
+| `stabns` | 711 | 3.3 |
+| `fraud` | 702 | 4.5 |
+| `defmin` | 685 | 6.8 |
+| `allhouse` | 662 | 9.9 |
+| `govfrac` | 633 | 13.9 |
+| `polariz` | 625 | 15.0 |
+| `frac` | 624 | 15.1 |
+| `maj` | 623 | 15.2 |
+| `prtyin` | 566 | 23.0 |
+| `oppfrac` | 522 | 29.0 |
+| `author` | 291 | 60.4 |
+| `herftot` | 59 | 92.0 |
+
+The large missingness in `author` and especially `herftot` makes these variables weak candidates for a common-sample panel model without a careful missing-data strategy. The descriptive statistics and annual country plots in the notebook provide additional distributional and time-pattern checks; plotted lines are not interpolated across missing observations.
+
+### 11.2 Ruling-party orientation in the valid ideology sample
+
+Only valid `Left`, `Center`, and `Right` labels are treated as substantive ideology categories. The EDA's country-by-orientation table records Bangladesh as **4 Right observations and 1 Left observation**, with no Center observations. The valid ideology sample is uneven across countries: for example, Vietnam has 49 Left observations, Japan 36 Right and 2 Left, India 34 Left and 15 Right, and Taiwan 46 Right and 3 Left.
+
+This distribution is a warning against treating the ideology variable as a complete, balanced country classification. In Bangladesh, the five valid observations are a very small basis for generalizing about the entire 1975–2023 period. The panel regressions' ideology estimates use 11 countries and around 308–319 observations depending on the outcome.
+
+### 11.3 Test 1 — Ruling-party ideology and political outcomes
+
+**Null hypothesis (H₀):** After controlling for country and year fixed effects, the Left and Center coefficients are jointly zero relative to Right orientation.
+
+**Alternative hypothesis (H₁):** At least one orientation coefficient differs from zero.
+
+The test uses two-way fixed-effects OLS with standard errors clustered by country. Only valid ideology labels are included. The updated saved results are:
+
+| Political outcome | N | Countries | Joint Wald statistic | Joint p-value | Reject H₀ at 5%? |
+|---|---:|---:|---:|---:|---|
+| `tensys` | 319 | 11 | 25.1090 | <0.0001 | Yes |
+| `yrsoffc` | 319 | 11 | 24.1154 | <0.0001 | Yes |
+| `checks` | 313 | 11 | 26.7612 | <0.0001 | Yes |
+| `stabs` | 308 | 11 | 3.7191 | 0.1557 | No |
+| `polariz` | 313 | 11 | 11.6497 | 0.0030 | Yes |
+
+The joint test detects an association between the ideology categories and four of the five political outcomes, but not `stabs`. The coefficient estimates are relative to the Right category. For example, the Center coefficient is negative and statistically significant for `tensys` (-4.3022, p = 0.0094) and `yrsoffc` (-1.2782, p < 0.0001). The Left coefficient is positive for `tensys` (2.7647, p = 0.0604) but does not reach the 5% threshold; it is positive and significant for `checks` (2.0108, p = 0.0001). These signs should not be given a substantive direction until the DPI scales and coding are verified.
+
+The updated ideology result for `stabs` is **not significant** (p = 0.1557). This supersedes the earlier preliminary figure of 0.0549 that appeared in the first draft of the notebook analysis.
+
+### 11.4 Test 2 — Military involvement, electoral irregularities, and legislative concentration
+
+**Null hypothesis (H₀):** The coefficients on `military`, `fraud`, and `allhouse` are jointly zero after controlling for country and year fixed effects.
+
+**Alternative hypothesis (H₁):** At least one of the three political indicators is associated with the outcome within the panel.
+
+Updated two-way fixed-effects results:
+
+| Political outcome | N | Countries | Joint Wald statistic | Joint p-value | Reject H₀ at 5%? |
+|---|---:|---:|---:|---:|---|
+| `tensys` | 652 | 15 | 9.6177 | 0.0221 | Yes |
+| `yrsoffc` | 652 | 15 | 13.8804 | 0.0031 | Yes |
+| `checks` | 644 | 15 | 12.7605 | 0.0052 | Yes |
+| `stabs` | 641 | 15 | 32.3157 | <0.0001 | Yes |
+| `polariz` | 548 | 15 | 21.9353 | 0.0001 | Yes |
+
+The three predictors are jointly associated with all five outcomes at the 5% level in these saved models. This is a joint test: it does not imply that all three predictors are individually significant in every regression.
+
+At the individual-coefficient level, `fraud` is significant for `yrsoffc` (coefficient 2.3718, p = 0.0066), `checks` (-1.1210, p = 0.0222), and `stabs` (-0.0683, p = 0.0015). `allhouse` is significant for `checks` (-1.2712, p = 0.0061) and `polariz` (-0.4892, p < 0.0001). The `military` coefficient does not reach the 5% threshold for any of these five outcomes in the reported regressions. Several other coefficients are close to, but do not cross, the conventional 5% threshold; they should not be described as statistically significant.
+
+### 11.5 Test 3 — Within-country political deviations
+
+**Null hypothesis (H₀):** The selected political predictors have no joint association with within-country changes in the DPI outcome after country and year fixed effects.
+
+**Alternative hypothesis (H₁):** The predictors are jointly associated with at least one within-country political outcome.
+
+The country fixed effects account for time-invariant differences between countries; year fixed effects account for common year shocks. Since the joint tests in Test 2 reject H₀ for all five outcomes, the saved results provide evidence that the selected political indicators covary with within-country deviations in each of the five measured political outcomes.
+
+This does **not** mean every country experienced the same deviation, that the deviation had the same sign, or that these predictors caused it. The design estimates pooled within-country associations across the selected panel. Country-specific event analysis would be needed to identify which countries and years account for the pooled patterns.
+
+### 11.6 Updated interpretation and candidate variables for the later WDI merge
+
+The expanded EDA strengthens the case for retaining a small set of political indicators for subsequent economic analysis, but it does not yet show an economic effect. Based on the current political-only results:
+
+- `execrlc` is a relevant ideology candidate, but Bangladesh has only five valid observations in the displayed orientation table and the ideology model covers 11 countries. This is a major coverage limitation.
+- `fraud` and `allhouse` show individual associations with some political outcomes in the updated fixed-effects models.
+- `military` is conceptually important and has high coverage, but its individual coefficients are not statistically significant at 5% in these five reported outcome models. Its joint contribution alongside the other predictors should not be mistaken for individual significance.
+- `tensys`, `yrsoffc`, `checks`, `stabs`, and `polariz` are the current political outcomes used in the screening regressions. Whether any should become explanatory variables in an economic model depends on the research question and their validated codebook definitions.
+- `herftot` and `author` have substantial missingness and should not be prioritized without addressing coverage.
+
+Variable selection for the WDI merge should not be based on p-values alone. The next stage should verify each DPI definition and coding direction, assess within-country variation and multicollinearity, consider alternative model specifications, and define an economically meaningful outcome and lag structure before estimating political-economic relationships.
+
+### 11.7 Inference and scope limitations
+
+1. There are only 15 country clusters in the institutional models and 11 in the ideology models. Cluster-robust p-values with so few clusters are approximate; borderline results require particular caution.
+2. The complete-case sample changes across outcomes, so sample sizes and country coverage must always accompany the results.
+3. The `polariz` outcome has three observed categories (0, 1, 2); OLS is exploratory for this coded outcome. An ordinal or other suitable model should be considered as a robustness check.
+4. The fixed-effects design controls for country-invariant characteristics and common year shocks, but not all time-varying confounders.
+5. The reported associations are not causal effects. Reverse relationships and omitted time-varying factors remain possible.
+6. No WDI variables have been merged. These tests do not answer whether political ideology or political institutions improve or harm economic performance.
+
+**Updated research conclusion:** the saved political panel outputs show statistically significant within-country associations between the selected institutional indicators and all five tested political outcomes. The ideology tests are significant for four outcomes, with no statistically significant joint association for `stabs`. These findings identify candidate variables and political deviations for further study; they do not yet demonstrate political effects on economic performance.
